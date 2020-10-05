@@ -2,6 +2,7 @@
   .intro {
     max-width: 690px;
     margin: 0 auto 92px auto;
+    padding-right: calc(988px - 690px);
     color: #fff;
   }
 }
@@ -9,7 +10,8 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro {
     max-width: 690px;
-    margin: 0 auto 92px 48px;
+    margin: 0 auto 92px auto;
+    padding-right: calc(928px - 690px);
     color: #fff;
   }
 }
