@@ -12,10 +12,12 @@
         <img class="logo" src="images/header-logo.svg" alt="Логотип" />
         <ul class="lang">
           <li class="lang__item">
-            <a class="lang__link lang__link_active" href="#">Ru</a>
+            <a class="lang__link lang__link_active" target="_blank" href="#"
+              >Ru</a
+            >
           </li>
           <li class="lang__item">
-            <a class="lang__link" href="#">En</a>
+            <a class="lang__link" target="_blank" href="#">En</a>
           </li>
         </ul>
       </header>
@@ -152,15 +154,18 @@
         </ul>
         <ul class="places">
           <li class="places__item">
-            <div class="places__header">
+            <header class="places__header">
               <h3 class="places__title">Куршская коса</h3>
               <div class="places__link-container">
                 <p class="places__link-label">URL</p>
-                <a href="http://park-kosa.ru" class="places__link"
+                <a
+                  href="http://park-kosa.ru"
+                  class="places__link"
+                  target="_blank"
                   >park-kosa.ru</a
                 >
               </div>
-            </div>
+            </header>
             <div class="places__body">
               <img
                 src="images/place-kosa.jpg"
@@ -186,17 +191,18 @@
             </div>
           </li>
           <li class="places__item">
-            <div class="places__header">
+            <header class="places__header">
               <h3 class="places__title">Кольский</h3>
               <div class="places__link-container">
                 <p class="places__link-label">URL</p>
                 <a
                   href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                  target="_blank"
                   class="places__link"
                   >National Geographic</a
                 >
               </div>
-            </div>
+            </header>
             <div class="places__body">
               <img
                 src="images/place-kolsky.jpg"
@@ -222,17 +228,18 @@
             </div>
           </li>
           <li class="places__item">
-            <div class="places__header">
+            <header class="places__header">
               <h3 class="places__title">Алтай</h3>
               <div class="places__link-container">
                 <p class="places__link-label">URL</p>
                 <a
                   href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                  target="_blank"
                   class="places__link"
                   >Facebook</a
                 >
               </div>
-            </div>
+            </header>
             <div class="places__body">
               <img
                 src="images/place-altai.jpg"
@@ -258,15 +265,18 @@
             </div>
           </li>
           <li class="places__item">
-            <div class="places__header">
+            <header class="places__header">
               <h3 class="places__title">Зимний Байкал</h3>
               <div class="places__link-container">
                 <p class="places__link-label">URL</p>
-                <a href="https://vk.com/baikalmile" class="places__link"
+                <a
+                  href="https://vk.com/baikalmile"
+                  class="places__link"
+                  target="_blank"
                   >https://vk.com/baikalmile</a
                 >
               </div>
-            </div>
+            </header>
             <div class="places__body">
               <img
                 src="images/place-winter-baikal.jpg"
@@ -291,15 +301,18 @@
             </div>
           </li>
           <li class="places__item">
-            <div class="places__header">
+            <header class="places__header">
               <h3 class="places__title">Карелия</h3>
               <div class="places__link-container">
                 <p class="places__link-label">URL</p>
-                <a href="http://vodlozero.ru" class="places__link"
+                <a
+                  href="http://vodlozero.ru"
+                  class="places__link"
+                  target="_blank"
                   >http://vodlozero.ru/</a
                 >
               </div>
-            </div>
+            </header>
             <div class="places__body">
               <img
                 src="images/place-karelia.jpg"
@@ -323,12 +336,12 @@
             </div>
           </li>
         </ul>
-        <section class="cover">
-          <a
-            class="cover__link"
-            href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            >До Байкала «на собаках»</a
-          >
+        <a
+          class="cover"
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+        >
+          <h4 class="cover__title">До Байкала «на собаках»</h4>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе и iframes — путешествие от
             столицы до Байкала на электричках.
@@ -338,27 +351,48 @@
             src="images/cover-trains.jpg"
             alt="Фотография поездов"
           />
-        </section>
+        </a>
       </main>
       <footer class="footer">
         <nav>
           <ul class="menu">
             <li class="menu__item">
-              <a href="https://yandex.ru/maps" class="menu__link">Карты</a>
+              <a
+                href="https://yandex.ru/maps"
+                target="_blank"
+                class="menu__link"
+                >Карты</a
+              >
             </li>
             <li class="menu__item">
-              <a href="https://yandex.ru/pogoda" class="menu__link">Погода</a>
+              <a
+                href="https://yandex.ru/pogoda"
+                target="_blank"
+                class="menu__link"
+                >Погода</a
+              >
             </li>
             <li class="menu__item">
-              <a href="https://rasp.yandex.ru" class="menu__link">Расписание</a>
+              <a
+                href="https://rasp.yandex.ru"
+                target="_blank"
+                class="menu__link"
+                >Расписание</a
+              >
             </li>
             <li class="menu__item">
-              <a href="https://calendar.yandex.ru" class="menu__link"
+              <a
+                href="https://calendar.yandex.ru"
+                target="_blank"
+                class="menu__link"
                 >Календарь</a
               >
             </li>
             <li class="menu__item">
-              <a href="https://travel.yandex.ru" class="menu__link"
+              <a
+                href="https://travel.yandex.ru"
+                target="_blank"
+                class="menu__link"
                 >Путешествия</a
               >
             </li>

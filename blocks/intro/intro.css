@@ -1,34 +1,35 @@
+.intro {
+  color: #fff;
+}
+
 @media screen and (min-width: 1280px) {
   .intro {
     max-width: 690px;
     margin: 0 auto 92px auto;
     padding-right: calc(988px - 690px);
-    color: #fff;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .intro {
     max-width: 690px;
     margin: 0 auto 92px auto;
     padding-right: calc(928px - 690px);
-    color: #fff;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .intro {
     max-width: 720px;
     margin: 0 auto 88px auto;
-    color: #fff;
+    padding: 0px;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .intro {
     max-width: 720px;
     margin: 0 auto 88px auto;
-    color: #fff;
   }
 }
 
@@ -36,6 +37,5 @@
   .intro {
     max-width: 288px;
     margin: 0 auto 64px auto;
-    color: #fff;
   }
 }
