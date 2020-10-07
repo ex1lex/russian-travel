@@ -16,12 +16,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .places__paragraph-container {
-    max-width: 352px;
-  }
-}
-
 @media screen and (max-width: 424px) {
   .places__paragraph-container {
     max-width: 288px;

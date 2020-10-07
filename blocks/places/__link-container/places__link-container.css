@@ -22,12 +22,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .places__link-container {
-    max-width: 352px;
-  }
-}
-
 @media screen and (max-width: 424px) {
   .places__link-container {
     display: none;

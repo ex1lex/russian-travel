@@ -21,12 +21,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .logo {
-    padding: 28px 24px;
-  }
-}
-
 @media screen and (max-width: 424px) {
   .logo {
     width: 142px;

@@ -3,28 +3,7 @@
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1280px) {
-  .places__body {
-  }
-}
-
-@media screen and (max-width: 1279px) {
-  .places__body {
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .places__body {
-  }
-}
-
 @media screen and (max-width: 767px) {
-  .places__body {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 424px) {
   .places__body {
     flex-direction: column;
   }

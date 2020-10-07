@@ -33,13 +33,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .cover__image {
-    max-width: 768px;
-    max-height: 480px;
-  }
-}
-
 @media screen and (max-width: 424px) {
   .cover__image {
     max-width: 328px;

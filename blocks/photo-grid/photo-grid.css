@@ -36,16 +36,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .photo-grid {
-    max-width: 720px;
-    margin: 0 auto 88px auto;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-  }
-}
-
 @media screen and (max-width: 424px) {
   .photo-grid {
     max-width: 288px;
